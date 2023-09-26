@@ -1,0 +1,5 @@
+
+official documentation about primitive data types:
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+
+Chapters 1 & 2 from Allen B. Downey, Chris Mayfield - Think Java - How to Think Like a Computer Scientist
