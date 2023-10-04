@@ -1,4 +1,4 @@
-package main.lesson20231002;
+package main.lesson20231002.assess;
 
 public class Example4 {
 
