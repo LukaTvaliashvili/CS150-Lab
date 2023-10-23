@@ -9,9 +9,9 @@ public class Problems {
     /*
     Given an int array length 2, return true if it does not contain a 7 or 9.
 
-    no23([4, 5]) → true
-    no23([4, 7]) → false
-    no23([9, 5]) → false
+    notContains7Or9([4, 5]) → true
+    notContains7Or9([4, 7]) → false
+    notContains7Or9([9, 5]) → false
      */
 
     public static boolean notContains7Or9(int[] array) {
@@ -24,7 +24,7 @@ public class Problems {
     The length of the array will be 1 or more.
      */
 
-    public static boolean firstOrLast7(int[] array, int luckyNumber) {
+    public static boolean firstOrLast(int[] array, int luckyNumber) {
 
         return true;
     }
