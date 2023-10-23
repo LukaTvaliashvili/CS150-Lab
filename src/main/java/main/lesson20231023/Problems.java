@@ -3,7 +3,11 @@ package main.lesson20231023;
 public class Problems {
 
     public static void main(String[] args) {
-
+        int[] array = new int[] {2,3,4};
+        int luckyNum = 2;
+        boolean containsLuckyNumber7 = firstOrLast(new int[]{4,5,6}, 7); // false
+        System.out.println(containsLuckyNumber7); //false
+        System.out.println(firstOrLast(array, luckyNum)); // true
     }
 
     /*
@@ -25,8 +29,10 @@ public class Problems {
      */
 
     public static boolean firstOrLast(int[] array, int luckyNumber) {
-
-        return true;
+        if (array[0] == luckyNumber || array[array.length - 1] == luckyNumber) {
+            return true;
+        }
+        return false;
     }
 
     /*
