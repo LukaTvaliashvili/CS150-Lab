@@ -108,9 +108,9 @@ public class Problems {
     Given an int array length 3, if there is a 4 in the array immediately followed by a 5, set the 5 element to 0.
     Return the changed array.
 
-    fix23([1, 4, 5]) → [1, 4, 0]
-    fix23([4, 5, 6]) → [4, 0, 6]
-    fix23([1, 2, 3]) → [1, 2, 3]
+    replaceIf4IsFollowedBy5([1, 4, 5]) → [1, 4, 0]
+    replaceIf4IsFollowedBy5([4, 5, 6]) → [4, 0, 6]
+    replaceIf4IsFollowedBy5([1, 2, 3]) → [1, 2, 3]
 
      */
 
