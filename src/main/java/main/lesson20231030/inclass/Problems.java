@@ -41,7 +41,7 @@ public class Problems {
 
     public static int findMax(int[] arr) {
         // int -> Integer
-//        int max = Integer.MIN_VALUE;
+        //int max = Integer.MIN_VALUE; -> will not work as expected if array contains only negative values
         int max = arr[0];
         for (int num : arr) {
             if (num > max) {
@@ -53,9 +53,8 @@ public class Problems {
     }
 
     public static int findMin(int[] arr) {
-        // int -> Integer
-//        int min = Integer.MAX_VALUE;
-        int min = 0;
+//        int min = Integer.MAX_VALUE; -> will not work as expected if array contains only negative values
+        int min = arr[0];
         for (int num : arr) {
             if (num < min) {
                 min = num;
@@ -69,8 +68,6 @@ public class Problems {
     how to sort the array in-place?
 
     [9, 5, -2, 11, 0, 7] -> [-2, 0, 5, 7, 9, 11]
-
-    first iteration: [9, 5, -2, 11, 0, 7] -> [5, 9, -2, 11, 0, 7]
 
     */
 }
