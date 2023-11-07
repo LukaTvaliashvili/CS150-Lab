@@ -1,9 +1,11 @@
 package main.lesson20231030;
 
+import java.util.Arrays;
+
 public class Problems {
 
     public static void main(String[] args) {
-
+        System.out.println(Arrays.toString(generateFromNtoOne(5)));
     }
 
     /*
@@ -45,4 +47,12 @@ public class Problems {
     Build a function that returns an array of integers from n to 1 where n > 0.
     Example : n = 5 -> [5,4,3,2,1]
      */
+
+    public static int[] generateFromNtoOne(int num){
+        int[] result = new int[num];
+        for(int i = 1; i <= num; i++){
+            result[num - i] = i; // assign 1 to the last element
+        }
+        return result;
+    }
 }
