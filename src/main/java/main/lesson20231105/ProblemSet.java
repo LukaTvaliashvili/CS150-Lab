@@ -60,21 +60,6 @@ public class ProblemSet {
     }
 
     /*
-    Given a non-empty array of integers, return a new array containing the elements that
-    follow the last occurrence of element 4. The original array will contain at least one 4.
-
-    ([4, 1, 4, 2]) -> [2]
-     */
-
-    /*
-    Given an array of integers, return an array in which all the 9s are removed.
-    The remaining elements should be shifted left, towards the beginning of the array.
-
-    {1, 9, 9, 2} -> {1, 2, 0, 0}.
-
-     */
-
-    /*
     Given an array of Strings, return a new array in which each String is reversed.
 
 
@@ -128,26 +113,4 @@ public class ProblemSet {
         }
         return catCount == dogCount;
     }
-
-
-    /*
-    Return the number of times that the string "hi" appears anywhere in the given string.
-
-    ("hihi") -> 2
-    ("dce hi ho") -> 1
-    ("XYZhi hi") -> 2
-
-     */
-
-    /*
-    Returns true if for every '*' (star) in the string, if there are chars both immediately before and after the star, they are the same.
-
-    sameStarChar("xy*yzz") -> true
-    sameStarChar("xy*zzz") -> false
-    sameStarChar("*xa*az") -> true
-    sameStarChar("*12*2*2") -> true
-    sameStarChar("12*2*3*") -> false
-     */
-
-
 }
