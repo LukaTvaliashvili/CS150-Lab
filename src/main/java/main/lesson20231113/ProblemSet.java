@@ -73,14 +73,4 @@ public class ProblemSet {
 //        return new StringBuilder().append(s).reverse().toString();
 //        return new StringBuilder().append(num).reverse().toString();
     }
-    /*
-    Write a method that expects an argument of type integer and "Positive", "Negative", and "Zero" otherwise.
-    Using this method check if the members of the given array, are positive, negative, or zero. Return a new array
-    containing these values.
-     */
-
-    /*
-    Create a method that calculates the value of a base raised to a positive integer exponent.
-    i.e, you need to create your own version of Math.pow() method.
-     */
 }
