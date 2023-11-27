@@ -1,0 +1,11 @@
+
+Create a bank class that has the following attributes
+accountName
+
+balance
+interestRate
+duration
+
+implement deposit(), withdraw(), checkBalance(),
+calculateSavingsBalanceAfter(int duration) methods
+Create instances of Bank class and test the behavior of the methods above

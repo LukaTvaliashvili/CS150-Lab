@@ -13,7 +13,5 @@ public class Example3 {
         Person p3 = new Person("George", 25);
         System.out.println("Age: " + p3.getAge());
         System.out.println("Name: " + p3.getName());
-
-
     }
 }
