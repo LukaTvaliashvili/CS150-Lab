@@ -9,27 +9,27 @@ public class VersionOneTest {
 
     @Test
     public void testRepeatEnd1() {
-        assertEquals("llollollo", VersionOne.repeatEnd("Hello", 3));
+        assertEquals("llollollo", VersionOne.repeatLast("Hello", 3));
     }
 
     @Test
     public void testRepeatEnd2() {
-        assertEquals("lolo", VersionOne.repeatEnd("Hello", 2));
+        assertEquals("lolo", VersionOne.repeatLast("Hello", 2));
     }
 
     @Test
     public void testRepeatEnd3() {
-        assertEquals("o", VersionOne.repeatEnd("Hello", 1));
+        assertEquals("o", VersionOne.repeatLast("Hello", 1));
     }
 
     @Test
     public void testRepeatEnd4() {
-        assertEquals("", VersionOne.repeatEnd("Hello", 0));
+        assertEquals("", VersionOne.repeatLast("Hello", 0));
     }
 
     @Test
     public void testRepeatEnd5() {
-        assertEquals("HelloHelloHello", RepeatEnd.repeatEnd("Hello", 5));
+        assertEquals("HelloHelloHelloHelloHello", VersionOne.repeatLast("Hello", 5));
     }
 
 
