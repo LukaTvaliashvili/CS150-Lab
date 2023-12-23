@@ -77,14 +77,14 @@ public class VersionTwoTest {
     @Test
     public void testConcatenateEvenOdd2() {
         String inputString = "xyz12345";
-        String expectedOutput = "x1y2z345";
+        String expectedOutput = "xz24y135";
         assertEquals(expectedOutput, VersionTwo.concatenateEvenOdd(inputString));
     }
 
     @Test
     public void testConcatenateEvenOdd3() {
         String inputString = "JavaIsFun";
-        String expectedOutput = "JvaiFsnu";
+        String expectedOutput = "JvIFnaasu";
         assertEquals(expectedOutput, VersionTwo.concatenateEvenOdd(inputString));
     }
 
